@@ -1,0 +1,122 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,600;1,400&display=swap');
+
+
+
+
+
+header{
+
+position: absolute; 
+
+
+
+}
+
+
+.ctt {
+    padding: 30px  0 ;
+    width: 100%;
+}
+
+
+.page {
+
+padding: 30px   ;
+width: 96%;
+display: flex;
+background-color:      brown;
+align-items: center;
+flex-wrap: wrap;
+justify-content: center;
+border-radius: 15px;
+
+}
+.card {
+    background-color: white;
+    border-color: black;
+
+}
+
+.card  h3 p  {
+
+
+    font-family: 'Rubik', sans-serif;
+
+
+
+
+
+}
+
+#r1{
+
+   background-color: #9a0daa;
+
+}
+#r2{
+
+ background-color: #e42d7d;
+
+}
+
+#r3{
+
+    background-color: #2da7e4;
+   
+   
+   }
+   #r4{
+
+    background-color: #f50832;
+   
+   
+   }
+   #r5{
+
+    background-color: #1F749F;
+   
+   
+   }
+   #r6{
+
+    background-color: #bc7c16;
+   
+   
+   }
+   #r7{
+
+    background-color: #418723;
+   
+   
+   }
+   #r8{
+
+    background-color: #ffc71d;
+   
+   
+   }
+   #r9{
+
+    background-color: #bcbcbc;
+   
+   
+   }
+   #r10{
+
+    background-color: #5b5b5b;
+   
+   
+   }
+   #r11{
+
+    background-color: #e42d7d;
+   
+   
+   }
+   #r12{
+
+    background-color: #e42d7d;
+   
+   
+   }

@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Literata');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+header {
+    font-family: 'Crimson Pro', serif;
+    width: 100%;
+    padding: 10px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    z-index: 999;
+    position: fixed;
+
+
+}
+
+nav a {
+    font-size: 1.1em;
+    text-decoration: none;
+    background-color: brown;
+    border-radius: 15px;
+    padding: 7px;
+    font-weight: 400;
+    color: black;
+    transition: 0.3s ease;
+    margin: 10px;
+    display: inline-block;
+
+}
+
+nav a:hover {
+
+    transform: scale(1.1);
+
+
+}
+
+
+.Logo {
+
+    font-size: 1.7em;
+    font-weight: 600;
+    color: brown;
+
+
+}
+
+section {
+
+    padding: 100px 200px;
+
+
+}
+
+.main {
+    padding: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(1.jpeg);
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
+.title_server {
+
+    font-size: 1.7em;
+    color: darkslategray;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+
+
+
+}
+
+.main p {
+
+    font-size: 1.2em;
+    color: #222D33;
+
+
+}
+
+.main .join {
+
+    font-size: 1.4em;
+    color: #222D33;
+    margin-top: 25px;
+
+
+}
+
+.main .bt1 {
+    display: inline-block;
+    background-color: #222D33;
+    font-size: 1.3em;
+    padding: 10px;
+    margin-left: 175px;
+
+    border-radius: 20px;
+    text-decoration: none;
+    color: #f2f7fa;
+    transition: 0.7s ease;
+}
+
+.main .bt1:hover {
+    transform: scale(1.1);
+}
+
+.title {
+    font-size: 1.6em;
+    text-align: center;
+
+}
+
+.title:hover {
+
+    border-radius: 15px;
+    transform: scale(1.1);
+
+}
+
+.cont {
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+}
+
+.card {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 30%;
+    padding: 10px;
+    box-shadow: 0px 15px 25px rgba(1 1 1 /25%);
+    border-radius: 15px;
+    border: 2px solid black;
+    transition: 0.7s ease;
+
+
+}
+
+.card img {
+    width: 90%;
+    border-radius: 100%;
+
+
+}
+
+.ymag img {
+
+    width: 70%;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.info {
+
+    text-align: center;
+
+}
+
+.info h3 {
+    font-weight: 800;
+    color: #222D33;
+
+}
+
+.card:hover {
+
+    transform: scale(1.1);
+
+}
+
+.cnt {
+
+    width: 100%;
+
+
+
+}
+
+.cnt img {
+
+    width: 75%;
+    border-radius: 15px;
+
+}
+
+footer {
+
+    padding: 1.5em;
+    background-color: black;
+
+
+}
+
+footer h2 {
+
+    text-align: center;
+    font-size: 1.1em;
+    color: brown;
+
+}
+
+
+
+/* Small */
+@media (max-width: 1023px) {
+    header {
+        padding: 10px 20px;
+
+    }
+
+    .Logo {
+
+        font-size: 1.4em;
+
+    }
+
+    section {
+        padding: 100px 40px;
+
+    }
+
+    .main {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        padding: 150px 20px;
+
+    }
+
+    .title_server {
+        margin: 10px;
+        font-size: 1.4em;
+
+    }
+
+    .card {
+
+        width: 80%;
+
+    }
+
+    .cont {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .info h3 {
+
+        font-size: 1.2em;
+
+    }
+
+    .info p {
+
+        font-size: 1em;
+
+    }
+
+    img {
+
+        width: 80%;
+
+    }
+    .ymag img{
+
+width: 95%;
+
+    }
+.ir {
+margin: 10px ;
+  width: 100%;
+
+}
+}
